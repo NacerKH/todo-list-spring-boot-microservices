@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  discovery-server:
+    image: discovery-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8761:8761"
