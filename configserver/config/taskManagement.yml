@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: taskManagement
+  datasource:
+    url: jdbc:mysql://localhost:3306/task_db
+    username: root
+    password: password
+server:
+  port: 8081
+
+kafka:
+  bootstrap-servers: localhost:9092
+  topic: task-topic
